@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Resume | B2B SaaS Style</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body id="top">
+  <!-- Navbar (Bootstrap Collapse / Hamburger) -->
+  <nav class="navbar navbar-expand-lg navbar-dark glass-nav sticky-top border-bottom border-white border-opacity-10">
+    <div class="container py-2">
+      <a class="navbar-brand fw-extrabold d-flex align-items-center gap-2" href="#top">
+        <span class="brand-dot"></span>
+        <span>THAMMALAK</span>
+      </a>
+
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse" data-bs-target="#mainNav"
+              aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1 mt-3 mt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#employment">Employment</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item ms-lg-2">
+            <a class="btn btn-primary btn-sm px-3 rounded-pill" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero py-5">
+    <div class="container">
+      <div class="row g-4 align-items-start">
+        <!-- Left -->
+        <div class="col-lg-7">
+          <div class="pill mb-3">
+            <span class="pill-dot"></span>
+            <span>สาขาวิชา: <em>Digital and Information Technology</em></span>
+          </div>
+
+          <!-- ชื่อ-นามสกุลแบบ h1 -->
+          <h1 class="display-5 fw-extrabold lh-1 mb-2">THAMMALAK PHUTTHATHAMMA</h1>
+
+          <p class="text-white-75 fw-semibold mb-3">
+            Programmer • นักศึกษา
+            <a class="link-underline link-underline-opacity-25 text-white"
+               href="http://pim.ac.th" target="_blank" rel="noopener noreferrer">
+              Panyapiwat Institute of Management (PIM)
+            </a>
+          </p>
+
+          <!-- ประวัติโดยย่อ -->
+          <p class="text-white-75 mb-4">
+            ผมสนใจการพัฒนาโปรแกรมและเว็บแอป เน้นงานที่ใช้งานง่าย โค้ดอ่านง่าย
+            และสามารถทำงานร่วมกับทีมได้ดี พร้อมพัฒนาทักษะเพื่อเตรียมตัวสู่การฝึกงานสาย Programmer
+          </p>
+
+          <div class="d-flex flex-wrap gap-2 mb-4">
+            <a class="btn btn-primary rounded-3 px-4" href="#projects">ดูผลงาน</a>
+            <a class="btn btn-outline-light rounded-3 px-4" href="#contact">ติดต่อกลับ</a>
+          </div>
+
+          <div class="row g-3">
+            <div class="col-sm-4">
+              <div class="stat card-glass p-3 h-100">
+                <div class="fs-5 fw-extrabold">3.52</div>
+                <div class="small text-white-60 fw-semibold">GPAX</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="stat card-glass p-3 h-100">
+                <div class="fs-5 fw-extrabold">2</div>
+                <div class="small text-white-60 fw-semibold">Projects</div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="stat card-glass p-3 h-100">
+                <div class="fs-5 fw-extrabold">Java</div>
+                <div class="small text-white-60 fw-semibold">Main Stack</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Profile Card -->
+        <div class="col-lg-5">
+          <div class="card-glass p-4 rounded-4 shadow-soft">
+            <div class="d-flex align-items-center gap-3">
+              <!-- รูป Display แบบวงกลม -->
+              <img class="avatar"
+                   src="profile.jpg"
+                   alt="Profile image">
+              <div>
+                <div class="fw-extrabold fs-5">THAMMALAK PHUTTHATHAMMA</div>
+                <div class="text-white-60 fw-semibold">Programmer</div>
+              </div>
+            </div>
+
+            <!-- เส้นแบ่ง -->
+            <hr class="divider my-4">
+
+            <div class="row g-3 small">
+              <div class="col-4 text-white-60 fw-semibold">สาขา</div>
+              <div class="col-8 fw-semibold"><em>Digital and Information Technology</em></div>
+
+              <div class="col-4 text-white-60 fw-semibold">คณะ</div>
+              <div class="col-8 fw-semibold">Engineering and Technology</div>
+
+              <div class="col-4 text-white-60 fw-semibold">สถาบัน</div>
+              <div class="col-8 fw-semibold">
+                <a class="text-white link-underline link-underline-opacity-25"
+                   href="http://pim.ac.th" target="_blank" rel="noopener noreferrer">PIM</a>
+              </div>
+            </div>
+
+            <div class="mt-4 d-flex gap-2">
+              <a class="btn btn-outline-light btn-sm rounded-pill px-3" href="#skills">Skills</a>
+              <a class="btn btn-outline-light btn-sm rounded-pill px-3" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-glow" aria-hidden="true"></div>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="section py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-3">
+        <h2 class="h3 fw-extrabold mb-0">About Me</h2>
+        <p class="mb-0 text-white-60 fw-semibold">เกี่ยวกับตัวฉัน</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">Quick bio</h3>
+            <p class="text-white-75 mb-0">
+              ผมชอบงานที่เป็นระบบ มีเป้าหมายชัดเจน และเน้นคุณภาพของการส่งมอบงาน
+              พร้อมเรียนรู้เทคโนโลยีใหม่ ๆ เพื่อพัฒนาตัวเอง
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">What I focus on</h3>
+            <ul class="text-white-75 mb-0">
+              <li>เขียนโค้ดแบบเป็นระบบ (OOP)</li>
+              <li>ออกแบบหน้าเว็บสะอาด อ่านง่าย และ Responsive</li>
+              <li>ทำงานร่วมกับฐานข้อมูล/จัดการข้อมูลได้ถูกต้อง</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider my-5">
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-3">
+        <h2 class="h3 fw-extrabold mb-0">Education</h2>
+        <p class="mb-0 text-white-60 fw-semibold">การศึกษา</p>
+      </div>
+
+      <div class="card-glass p-4 rounded-4">
+        <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+          <h3 class="h5 fw-extrabold mb-0">Panyapiwat Institute of Management (PIM)</h3>
+          <span class="badge text-bg-light rounded-pill px-3 py-2">Jun 2024 – Present</span>
+        </div>
+        <p class="text-white-75 mt-2 mb-0">
+          Faculty of Engineering and Technology • Major: <em>Digital and Information Technology</em> • GPAX: 3.52
+        </p>
+      </div>
+
+      <hr class="divider my-5">
+    </div>
+  </section>
+
+  <!-- Employment -->
+  <section id="employment" class="section py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-3">
+        <h2 class="h3 fw-extrabold mb-0">Employment History</h2>
+        <p class="mb-0 text-white-60 fw-semibold">ประวัติการทำงาน</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-4">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <div class="d-flex justify-content-between gap-2">
+              <h3 class="h6 fw-extrabold mb-0">Internship at 7-11</h3>
+              <span class="badge badge-soft rounded-pill">Mar 2025 – May 2025</span>
+            </div>
+            <p class="text-white-60 fw-semibold mt-2 mb-2">CP ALL Public Company Limited, Thailand</p>
+            <ul class="text-white-75 mb-0">
+              <li>ตรวจเช็คสต็อกสินค้าในคลัง</li>
+              <li>อัปเดตราคาหน้าชั้นวางสินค้า</li>
+              <li>เติมสินค้าและจัดเรียงให้เป็นระเบียบ</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card-glass p-4 rounded-4 h-100 highlight">
+            <div class="d-flex justify-content-between gap-2">
+              <h3 class="h6 fw-extrabold mb-0">Career Objective</h3>
+              <span class="badge badge-glow rounded-pill">Goal</span>
+            </div>
+            <p class="text-white-75 mt-3 mb-0">
+              Seeking a <strong>Programmer internship</strong> to gain practical experience and enhance
+              technical and teamwork abilities.
+            </p>
+            <hr>
+            <p class="Text">กำลังมองหาโอกาสในการฝึกงานตำแหน่ง Programmer เพื่อเพิ่มพูนประสบการณ์การทำงานจริง พร้อมทั้งพัฒนาทักษะด้านเทคนิคและการทำงานร่วมกับผู้อื่นอย่างมีประสิทธิภาพ</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <div class="d-flex justify-content-between gap-2">
+              <h3 class="h6 fw-extrabold mb-0">Availability</h3>
+              <span class="badge badge-soft rounded-pill">B2B style</span>
+            </div>
+            <p class="text-white-75 mt-3 mb-0">
+              พร้อมเรียนรู้ Front-end / Back-end ระดับเริ่มต้น และสนใจงานที่มีฐานข้อมูลหรือเชื่อมต่อ API
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider my-5">
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-3">
+        <h2 class="h3 fw-extrabold mb-0">Skills</h2>
+        <p class="mb-0 text-white-60 fw-semibold">ทักษะ</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">Programming</h3>
+            <ul class="text-white-75 mb-0">
+              <li>Java (OOP)</li>
+              <li>HTML / CSS</li>
+              <li>MySQL</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">Soft Skills</h3>
+            <ul class="text-white-75 mb-0">
+              <li>Teamwork</li>
+              <li>Analytical thinking</li>
+              <li>Adaptability</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">Tools</h3>
+            <ul class="text-white-75 mb-0">
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Figma</li>
+              <li>XAMPP / NetBeans</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">Basics</h3>
+            <ul class="text-white-75 mb-0">
+              <li>Attention to detail</li>
+              <li>Patience</li>
+              <li>Clean layout</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider my-5">
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-3">
+        <h2 class="h3 fw-extrabold mb-0">Projects</h2>
+        <p class="mb-0 text-white-60 fw-semibold">ผลงาน</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-6">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <div class="d-flex justify-content-between gap-2">
+              <h3 class="h6 fw-extrabold mb-0">Food-Recipes System</h3>
+              <span class="badge badge-soft rounded-pill">Java • MySQL</span>
+            </div>
+            <p class="text-white-75 mt-3 mb-0">
+              Developed a GUI application using Java for managing food recipes, with MySQL database integration
+              for menu management and recipe storage.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <div class="d-flex justify-content-between gap-2">
+              <h3 class="h6 fw-extrabold mb-0">IoT Smart Keycard Access</h3>
+              <span class="badge badge-soft rounded-pill">IoT • Sheet • Telegram</span>
+            </div>
+            <p class="text-white-75 mt-3 mb-0">
+              Built an IoT keycard access system integrated with Google Sheet, Telegram, and Google Drive
+              for logging and alerts.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider my-5">
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section py-5">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-2 mb-3">
+        <h2 class="h3 fw-extrabold mb-0">Contact</h2>
+        <p class="mb-0 text-white-60 fw-semibold">ช่องทางติดต่อกลับ</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-7">
+          <div class="card-glass p-4 rounded-4">
+            <h3 class="h6 fw-extrabold mb-3">Reach me</h3>
+
+            <!-- Ordered List (ol) -->
+            <ol class="contact-ol text-white-75 mb-0">
+              <li class="mb-3">
+                <div class="fw-bold text-white">Email (สถาบัน):</div>
+                <div class="fw-semibold">
+                  6xxxxxxx
+                  <img class="at-img" alt="@" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20width%3D%2714%27%20height%3D%2714%27%20viewBox%3D%270%200%2016%2016%27%3E%3Cpath%20fill%3D%27%2390a3b0%27%20d%3D%27M8%201C4.134%201%201%204.134%201%208s3.134%207%207%207c1.21%200%202.285-.275%203.186-.75l-.91-1.74A4.97%204.97%200%200%201%2013%2012.2C12.21%2012.7%2011.2%2013%2010%2013c-2.757%200-5-2.243-5-5s2.243-5%205-5s5%202.243%205%205c0%201.654-.77%202.5-1.5%202.5c-.345%200-.5-.21-.5-.5V8a3%203%200%201%200-1%202.236V9.5c0%202.07%201.43%203.5%203.5%203.5C15.57%2013%2017%2011.07%2017%208c0-3.866-3.134-7-7-7Zm0%209a2%202%200%201%201%200-4a2%202%200%200%201%200%204Z%27/%3E%3C/svg%3E">
+                  pim.ac.th
+                </div>
+                <div class="small text-white-60"></div>
+              </li>
+
+              <li class="mb-3">
+                <div class="fw-bold text-white">Phone:</div>
+                <div class="fw-semibold">08X-XXX-XXXX</div>
+                <div class="small text-white-60"></div>
+              </li>
+
+              <li class="mb-3">
+                <div class="fw-bold text-white">Address:</div>
+                <div class="fw-semibold">Bangkok, Thailand</div>
+                <div class="small text-white-60"></div>
+              </li>
+
+              <li class="mb-0">
+                <div class="fw-bold text-white">Other:</div>
+                <a class="fw-semibold link-underline link-underline-opacity-25 text-white"
+                   href="https://github.com/thammalak" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="card-glass p-4 rounded-4 h-100">
+            <h3 class="h6 fw-extrabold">Note</h3>
+            <p class="text-white-75 mb-0">
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-between align-items-center mt-5 small text-white-60">
+        <span>© 2025 THAMMALAK PHUTTHATHAMMA</span>
+        <a class="text-white link-underline link-underline-opacity-25" href="#top">Back to top</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS (จำเป็นสำหรับ hamburger/collapse) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
